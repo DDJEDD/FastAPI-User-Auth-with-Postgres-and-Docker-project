@@ -40,10 +40,12 @@ Note: Ensure the service name (fastapi_app) matches the one defined in your dock
 alembic revision --autogenerate -m "Initial migration"
 alembic upgrade head
 ```
-##✅ Done!
+## ✅ Done!
+
 Visit the automatic API documentation at:
 🔗 http://127.0.0.1:8000/docs
-##📝 Notes
+
+## 📝 Notes
 
 Ensure PostgreSQL is fully initialized before running Alembic commands.
 This setup uses async SQLAlchemy with the asyncpg driver for PostgreSQL.
