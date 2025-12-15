@@ -25,6 +25,7 @@ This project demonstrates a simple user authentication system built with FastAPI
 NAME_OF_USER=your_postgres_username
 PASSWORD_OF_USER=your_postgres_password
 DATABASE_NAME=your_database_name
+SECRET_KEY=your_secret_key_for_JWT
 ```
 3.**Build and run the project with Docker**:
 ```bash
